@@ -20,7 +20,6 @@ public class MainActivity extends AppCompatActivity {
     protected EditText editName,editPhone,editEmail;
     protected Button btnInsert;
     protected ListView simpleList;
-
     protected void initDB() throws SQLException{
         SQLiteDatabase db = null;
 
@@ -125,8 +124,7 @@ public class MainActivity extends AppCompatActivity {
 
                 try{
                     selectDB();
-                }
-                catch (Exception e){
+                }catch (Exception e){
 
                 }
             }
